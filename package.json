@@ -1,6 +1,6 @@
 {
   "name": "hono-alibaba-cloud-fc3-adapter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An adapter for using Hono with Alibaba Cloud Function Compute 3.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
