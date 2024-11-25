@@ -1,9 +1,14 @@
 {
   "name": "hono-alibaba-cloud-fc3-adapter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An adapter for using Hono with Alibaba Cloud Function Compute 3.0",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
   "type": "module",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "tsc",
     "lint": "eslint --fix .",
@@ -15,9 +20,19 @@
     "test": "vitest",
     "coverage": "vitest --coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "hono",
+    "alibaba cloud",
+    "function compute",
+    "fc"
+  ],
+  "author": "rwv",
+  "license": "MIT",
+  "repository": "https://github.com/rwv/hono-alibaba-cloud-fc3-adapter",
+  "homepage": "https://github.com/rwv/hono-alibaba-cloud-fc3-adapter",
+  "bugs": {
+    "url": "https://github.com/rwv/hono-alibaba-cloud-fc3-adapter/issues"
+  },
   "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
   "devDependencies": {
     "@commitlint/cli": "^19.6.0",
