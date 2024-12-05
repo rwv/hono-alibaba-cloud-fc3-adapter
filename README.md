@@ -26,3 +26,5 @@ app.get("/", (c) => c.text("Hello Hono!"));
 
 export const handler = handle(app);
 ```
+
+For more details, check out [Alibaba Cloud Function Compute - Hono](https://hono.dev/docs/getting-started/ali-function-compute).
