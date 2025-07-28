@@ -34,7 +34,7 @@ importers:
         version: 9.31.0(jiti@2.4.2)
       hono:
         specifier: ^4.6.12
-        version: 4.8.5
+        version: 4.8.9
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -998,8 +998,8 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  hono@4.8.5:
-    resolution: {integrity: sha512-Up2cQbtNz1s111qpnnECdTGqSIUIhZJMLikdKkshebQSEBcoUKq6XJayLGqSZWidiH0zfHRCJqFu062Mz5UuRA==}
+  hono@4.8.9:
+    resolution: {integrity: sha512-ERIxkXMRhUxGV7nS/Af52+j2KL60B1eg+k6cPtgzrGughS+espS9KQ7QO0SMnevtmRlBfAcN0mf1jKtO6j/doA==}
     engines: {node: '>=16.9.0'}
 
   html-escaper@2.0.2:
@@ -2584,7 +2584,7 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  hono@4.8.5: {}
+  hono@4.8.9: {}
 
   html-escaper@2.0.2: {}
 
